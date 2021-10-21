@@ -156,7 +156,7 @@ TextureImporter:
         serializedVersion: 2
         x: 92
         y: 433
-        width: 636
+        width: 641
         height: 1437
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Estante-e-livros-novo_1
       rect:
         serializedVersion: 2
-        x: 824
-        y: 1452
-        width: 554
-        height: 376
+        x: 1026
+        y: 581
+        width: 23
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +196,7 @@ TextureImporter:
       name: Estante-e-livros-novo_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 204
         y: 26
         width: 76
         height: 375
@@ -217,7 +217,7 @@ TextureImporter:
       name: Estante-e-livros-novo_3
       rect:
         serializedVersion: 2
-        x: 204
+        x: 316
         y: 26
         width: 76
         height: 375
@@ -238,7 +238,7 @@ TextureImporter:
       name: Estante-e-livros-novo_4
       rect:
         serializedVersion: 2
-        x: 316
+        x: 428
         y: 26
         width: 76
         height: 375
@@ -259,7 +259,7 @@ TextureImporter:
       name: Estante-e-livros-novo_5
       rect:
         serializedVersion: 2
-        x: 428
+        x: 540
         y: 26
         width: 76
         height: 375
@@ -280,9 +280,9 @@ TextureImporter:
       name: Estante-e-livros-novo_6
       rect:
         serializedVersion: 2
-        x: 540
+        x: 653
         y: 26
-        width: 76
+        width: 75
         height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -301,9 +301,9 @@ TextureImporter:
       name: Estante-e-livros-novo_7
       rect:
         serializedVersion: 2
-        x: 653
+        x: 765
         y: 26
-        width: 75
+        width: 76
         height: 375
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -322,7 +322,7 @@ TextureImporter:
       name: Estante-e-livros-novo_8
       rect:
         serializedVersion: 2
-        x: 765
+        x: 877
         y: 26
         width: 76
         height: 375
@@ -343,7 +343,7 @@ TextureImporter:
       name: Estante-e-livros-novo_9
       rect:
         serializedVersion: 2
-        x: 877
+        x: 989
         y: 26
         width: 76
         height: 375
@@ -364,7 +364,7 @@ TextureImporter:
       name: Estante-e-livros-novo_10
       rect:
         serializedVersion: 2
-        x: 989
+        x: 1101
         y: 26
         width: 76
         height: 375
@@ -385,7 +385,7 @@ TextureImporter:
       name: Estante-e-livros-novo_11
       rect:
         serializedVersion: 2
-        x: 1101
+        x: 1213
         y: 26
         width: 76
         height: 375
@@ -406,7 +406,7 @@ TextureImporter:
       name: Estante-e-livros-novo_12
       rect:
         serializedVersion: 2
-        x: 1213
+        x: 1325
         y: 26
         width: 76
         height: 375
@@ -427,7 +427,7 @@ TextureImporter:
       name: Estante-e-livros-novo_13
       rect:
         serializedVersion: 2
-        x: 1325
+        x: 1437
         y: 26
         width: 76
         height: 375
@@ -448,7 +448,7 @@ TextureImporter:
       name: Estante-e-livros-novo_14
       rect:
         serializedVersion: 2
-        x: 1437
+        x: 1549
         y: 26
         width: 76
         height: 375
@@ -469,7 +469,7 @@ TextureImporter:
       name: Estante-e-livros-novo_15
       rect:
         serializedVersion: 2
-        x: 1549
+        x: 1661
         y: 26
         width: 76
         height: 375

@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projetil
+  - Reset
+  - Livro
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 3341144709
+    locked: 0
+  - name: Estante
+    uniqueID: 1932476905
+    locked: 0
+  - name: Livros
+    uniqueID: 3650734721
     locked: 0

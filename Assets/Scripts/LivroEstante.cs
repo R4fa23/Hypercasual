@@ -6,36 +6,45 @@ using UnityEngine.UI;
 public class LivroEstante : MonoBehaviour
 {
     public Sprite[] livrosSprite;
+    public SpriteRenderer imagem;
+    public bool cheio;
+    public bool projetil;
     public int indice;
-    
+
+    Vector2 force;
+    int torque;
     int minInd;
     int maxInd;
-    Rigidbody2D rb;
+    public bool atirado = false;
+    
 
-    public Image imagem;
-
-    public bool cheio;
+    Rigidbody2D rb;  
 
     private void Start()
     {
         minInd = 0;
         maxInd = livrosSprite.Length;
 
-        imagem = gameObject.GetComponent<Image>();
-        imagem.sprite = null;
-
-        imagem.enabled = false;
+        imagem = gameObject.GetComponent<SpriteRenderer>();
+        imagem.sprite = null;        
         cheio = false;
 
+        force = new Vector2(10, 20);
         rb = gameObject.GetComponent<Rigidbody2D>();
-        int torque = Random.Range(-5000000, 5000000);
-        rb.AddTorque(torque);
+        torque = Random.Range(-10, 10);
+
+        
 
 
     }
 
     void Update()
     {
+        if (projetil)
+        {
+            cheio = true;
+        }
+
         if (cheio == true)
         {
             for (int i = 0; i < livrosSprite.Length; i++)
@@ -43,19 +52,25 @@ public class LivroEstante : MonoBehaviour
                 if (i == indice)
                 {
                     imagem.sprite = livrosSprite[i];
-                }
+                    atirado = true;
+                }                
             }
-
-            imagem.enabled = true;
-        } else
-        {
-            imagem.enabled = false;
         }
+        
     }
+
+   
 
     public void CriarLivro()
     {        
         indice = Random.Range(minInd, maxInd);
         cheio = true;
+    }
+
+    public void Explodir()
+    {
+        rb.gravityScale = 1;
+        rb.AddTorque(torque);
+        rb.AddForce(force);
     }
 }

@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class Prateleira : MonoBehaviour
 {
-    public LivroEstante[] livros;
-
-    int ligar;
-    public int contador;
-
-    bool sorteando;
-
-
-
+    public LivroEstante[] livros;    
+    public int ligar;
     public int indice;
+
+    int contador;
     int minInd;
     int maxInd;
 
+    bool sorteando;
+
     void Start()
     {
-        ligar = 6;
         minInd = 0;
         maxInd = livros.Length;        
         sorteando = true;

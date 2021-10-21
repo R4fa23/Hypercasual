@@ -10,6 +10,7 @@ public class LivroEstante : MonoBehaviour
     
     int minInd;
     int maxInd;
+    Rigidbody2D rb;
 
     public Image imagem;
 
@@ -24,7 +25,12 @@ public class LivroEstante : MonoBehaviour
         imagem.sprite = null;
 
         imagem.enabled = false;
-        cheio = false;     
+        cheio = false;
+
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        int torque = Random.Range(-5000000, 5000000);
+        rb.AddTorque(torque);
+
 
     }
 

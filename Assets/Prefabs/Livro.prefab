@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2401926713805649241
+--- !u!1 &5698201939297626960
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2401926713805649240}
-  - component: {fileID: 2401926713805649245}
-  - component: {fileID: 2401926713805649246}
-  - component: {fileID: 2401926713805649247}
+  - component: {fileID: 4213930995362886804}
+  - component: {fileID: 1820722959650514417}
+  - component: {fileID: 8166495316241828562}
+  - component: {fileID: 6740354472046467203}
+  - component: {fileID: 8419437742975783245}
+  - component: {fileID: 6399566186474898038}
   m_Layer: 5
   m_Name: Livro
   m_TagString: Untagged
@@ -19,13 +21,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2401926713805649240
+--- !u!224 &4213930995362886804
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2401926713805649241}
+  m_GameObject: {fileID: 5698201939297626960}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,24 +38,24 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 76, y: 375}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &2401926713805649245
+--- !u!222 &1820722959650514417
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2401926713805649241}
+  m_GameObject: {fileID: 5698201939297626960}
   m_CullTransparentMesh: 1
---- !u!114 &2401926713805649246
+--- !u!114 &8166495316241828562
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2401926713805649241}
-  m_Enabled: 0
+  m_GameObject: {fileID: 5698201939297626960}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -66,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 9083779506411483659, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -76,23 +78,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2401926713805649247
+--- !u!114 &6740354472046467203
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2401926713805649241}
+  m_GameObject: {fileID: 5698201939297626960}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7daab5896a6830f40a1cdf4716e3ce0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   livrosSprite:
-  - {fileID: -8907350871511382103, guid: 7aa358a986861d94c8012e12abfa6bfd, type: 3}
-  - {fileID: 5316594832770754760, guid: 7aa358a986861d94c8012e12abfa6bfd, type: 3}
-  - {fileID: 6450005796919116881, guid: 7aa358a986861d94c8012e12abfa6bfd, type: 3}
-  - {fileID: 8827438912671679545, guid: 7aa358a986861d94c8012e12abfa6bfd, type: 3}
-  - {fileID: 7958696166725112835, guid: 7aa358a986861d94c8012e12abfa6bfd, type: 3}
+  - {fileID: 9083779506411483659, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -4014463602058287899, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 7154280862510693935, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 1087830046610196867, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 3690939267355683069, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 6719156836696553004, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -413983398843985937, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 5999726643778011127, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -48531602113118635, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -5423526018743999747, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -2877640216294515676, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: 2841744180757973636, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -7191182088994671367, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
+  - {fileID: -5569655555835313734, guid: 18f72ce1755f397469d4c1a6478bc159, type: 3}
   indice: 0
+  force: {x: 100, y: 300}
+  torque: 500
+  imagem: {fileID: 0}
   cheio: 0
+--- !u!50 &8419437742975783245
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698201939297626960}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6399566186474898038
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5698201939297626960}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 76, y: 377.52}
+  m_EdgeRadius: 0

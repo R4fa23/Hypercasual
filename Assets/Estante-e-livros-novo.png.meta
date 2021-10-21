@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 18f72ce1755f397469d4c1a6478bc159
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2971388991685917755
+    second: Estante-e-livros-novo_0
+  - first:
+      213: 5779557093959598148
+    second: Estante-e-livros-novo_1
+  - first:
+      213: 9083779506411483659
+    second: Estante-e-livros-novo_2
+  - first:
+      213: -4014463602058287899
+    second: Estante-e-livros-novo_3
+  - first:
+      213: 7154280862510693935
+    second: Estante-e-livros-novo_4
+  - first:
+      213: 1087830046610196867
+    second: Estante-e-livros-novo_5
+  - first:
+      213: 3690939267355683069
+    second: Estante-e-livros-novo_6
+  - first:
+      213: 6719156836696553004
+    second: Estante-e-livros-novo_7
+  - first:
+      213: -413983398843985937
+    second: Estante-e-livros-novo_8
+  - first:
+      213: 5999726643778011127
+    second: Estante-e-livros-novo_9
+  - first:
+      213: -48531602113118635
+    second: Estante-e-livros-novo_10
+  - first:
+      213: -5423526018743999747
+    second: Estante-e-livros-novo_11
+  - first:
+      213: -2877640216294515676
+    second: Estante-e-livros-novo_12
+  - first:
+      213: 2841744180757973636
+    second: Estante-e-livros-novo_13
+  - first:
+      213: -7191182088994671367
+    second: Estante-e-livros-novo_14
+  - first:
+      213: -5569655555835313734
+    second: Estante-e-livros-novo_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 433
+        width: 636
+        height: 1437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cf1fa7b8e7c3920800000000000000
+      internalID: 2971388991685917755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_1
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1452
+        width: 554
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4400d883e8c153050800000000000000
+      internalID: 5779557093959598148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0231a94551101e70800000000000000
+      internalID: 9083779506411483659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4a49b9f92c948c0800000000000000
+      internalID: -4014463602058287899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e33591a8c194360800000000000000
+      internalID: 7154280862510693935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_5
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3898230f9afb81f00800000000000000
+      internalID: 1087830046610196867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8a64e45b9d83330800000000000000
+      internalID: 3690939267355683069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_7
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 26
+        width: 75
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c267f691b8d3f3d50800000000000000
+      internalID: 6719156836696553004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_8
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefcef8ca4c314af0800000000000000
+      internalID: -413983398843985937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_9
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffb5d7389f434350800000000000000
+      internalID: 5999726643778011127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_10
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ebaa7d3c4935ff0800000000000000
+      internalID: -48531602113118635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_11
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2ecae22d3cbb4b0800000000000000
+      internalID: -5423526018743999747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_12
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c136c38719018d0800000000000000
+      internalID: -2877640216294515676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_13
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48acc94b647ef6720800000000000000
+      internalID: 2841744180757973636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_14
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f432569df9c33c90800000000000000
+      internalID: -7191182088994671367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estante-e-livros-novo_15
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 26
+        width: 76
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c72108cb94b2b0800000000000000
+      internalID: -5569655555835313734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

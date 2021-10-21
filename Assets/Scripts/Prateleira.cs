@@ -6,7 +6,7 @@ public class Prateleira : MonoBehaviour
 {
     public LivroEstante[] livros;
 
-    public int ligar;
+    int ligar;
     public int contador;
 
     bool sorteando;
@@ -19,6 +19,7 @@ public class Prateleira : MonoBehaviour
 
     void Start()
     {
+        ligar = 6;
         minInd = 0;
         maxInd = livros.Length;        
         sorteando = true;
@@ -61,6 +62,7 @@ public class Prateleira : MonoBehaviour
         }
 
         contador = 0;
+        ligar = Random.Range(-1, livros.Length + 1);
         sorteando = true;
     }
   

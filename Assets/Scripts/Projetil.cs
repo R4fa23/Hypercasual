@@ -6,6 +6,10 @@ public class Projetil : MonoBehaviour
 {
     [SerializeField] Transform cursor;
     [SerializeField] Vector2 force;
+    AudioSource audio;
+
+    [SerializeField] AudioClip[] clips;
+    public AudioClip som;
 
     public bool mirando;
 
@@ -15,6 +19,7 @@ public class Projetil : MonoBehaviour
     
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         sprite = GetComponent<SpriteRenderer>();
         livro = gameObject.GetComponent<LivroEstante>();
         livro.CriarLivro();
@@ -24,6 +29,10 @@ public class Projetil : MonoBehaviour
 
     void Update()
     {
+       if(Controller.atirar == false)
+        {
+            gameObject.SetActive(false);
+        }
         if (mirando)
         {
             gameObject.transform.position = cursor.position;
@@ -31,6 +40,7 @@ public class Projetil : MonoBehaviour
         else       
         {
             gameObject.transform.position = gameObject.transform.position;
+            
         }
 
         
@@ -38,9 +48,13 @@ public class Projetil : MonoBehaviour
 
     public void Atirar()
     {
-        mirando = false;
-        rb.velocity = force;
-
+        if(mirando == true)
+        {
+            mirando = false;
+            rb.velocity = force;
+            audio.PlayOneShot(som);
+        }
+        
     }
 
     public void Resetar()
@@ -55,6 +69,7 @@ public class Projetil : MonoBehaviour
         livro = colisor.GetComponent<LivroEstante>();
         if (colisor.gameObject.tag == "Reset" )
         {
+            Controller.vida -= 1;
             Resetar();
         }
 
@@ -62,9 +77,12 @@ public class Projetil : MonoBehaviour
         {            
             if (livro.atirado == false)
             {
-                Debug.Log(colisor.gameObject.name);
+                Controller.pontos += 10;
                 livro.imagem.sprite = sprite.sprite;
                 livro.atirado = true;
+                int index = Random.Range(0, clips.Length);
+                audio.PlayOneShot(clips[index]);                
+                livro.SomarQnt();
                 Resetar();
             }
             

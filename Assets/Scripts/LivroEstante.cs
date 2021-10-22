@@ -9,9 +9,10 @@ public class LivroEstante : MonoBehaviour
     public SpriteRenderer imagem;
     public bool cheio;
     public bool projetil;
-    public int indice;
-
+    public bool rag;
+    public Estante estante;
     Vector2 force;
+    int indice;
     int torque;
     int minInd;
     int maxInd;
@@ -22,6 +23,7 @@ public class LivroEstante : MonoBehaviour
 
     private void Start()
     {
+       
         minInd = 0;
         maxInd = livrosSprite.Length;
 
@@ -29,48 +31,65 @@ public class LivroEstante : MonoBehaviour
         imagem.sprite = null;        
         cheio = false;
 
-        force = new Vector2(10, 20);
+        force = new Vector2(0, 100);        
+        torque = Random.Range(-5, 5);
         rb = gameObject.GetComponent<Rigidbody2D>();
-        torque = Random.Range(-10, 10);
-
-        
-
+        rb.gravityScale = 0;
 
     }
 
     void Update()
     {
-        if (projetil)
+        if (projetil && estante == null)
         {
             cheio = true;
         }
 
         if (cheio == true)
         {
+            
             for (int i = 0; i < livrosSprite.Length; i++)
             {
                 if (i == indice)
                 {
                     imagem.sprite = livrosSprite[i];
                     atirado = true;
+                    break;
                 }                
-            }
+            }            
         }
+
+        
         
     }
+    private void FixedUpdate()
+    {
+        if (Controller.gameOver == true && projetil == false && rag == true)
+        {
+            Debug.Log("explode");
+            rag = true;
+            rb.velocity = new Vector2(force.x, force.y);
+            
+            rag = false;
+            
+            
+        }
 
-   
+        if (Controller.gameOver == true )
+        {
+            rb.gravityScale = 1;
+            rb.AddTorque(torque);
+        }
+    }
 
     public void CriarLivro()
     {        
-        indice = Random.Range(minInd, maxInd);
+        indice = Random.Range(minInd, maxInd);        
         cheio = true;
     }
 
-    public void Explodir()
+    public void SomarQnt()
     {
-        rb.gravityScale = 1;
-        rb.AddTorque(torque);
-        rb.AddForce(force);
+        estante.quantidade++;
     }
 }

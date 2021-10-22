@@ -56,8 +56,7 @@ MonoBehaviour:
   - {fileID: 1631733092646205621}
   - {fileID: 6732861293225383851}
   - {fileID: 5888033600148242771}
-  ligar: 3
-  indice: 0
+  quantidade: 0
 --- !u!1001 &826577874484934545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65,6 +64,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro
@@ -138,6 +145,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro (3)
@@ -211,6 +226,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro (1)
@@ -284,6 +307,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro (5)
@@ -357,6 +388,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro (4)
@@ -430,6 +469,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2678036062669181518}
     m_Modifications:
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prat
+      value: 
+      objectReference: {fileID: 6855318352117376382}
+    - target: {fileID: 475157947067919696, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
+      propertyPath: prateleira
+      value: 
+      objectReference: {fileID: 6855318352117376382}
     - target: {fileID: 891645508647108615, guid: 89b01a4e89708ad4e967ecb51912b006, type: 3}
       propertyPath: m_Name
       value: Livro (2)

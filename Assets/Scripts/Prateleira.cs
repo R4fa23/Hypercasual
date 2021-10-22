@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Prateleira : MonoBehaviour
 {
+    
     public LivroEstante[] livros;    
-    public int ligar;
-    public int indice;
+    int ligar;
+    int indice;
 
     int contador;
     int minInd;
@@ -16,6 +17,7 @@ public class Prateleira : MonoBehaviour
 
     void Start()
     {
+        ligar = Random.Range(0, livros.Length-1);
         minInd = 0;
         maxInd = livros.Length;        
         sorteando = true;
@@ -44,7 +46,8 @@ public class Prateleira : MonoBehaviour
             if (i == indice && livros[i].cheio == false)
             {
                 livros[i].CriarLivro();
-                contador ++;
+                livros[i].SomarQnt();
+                contador++;
             }
         }
     }
@@ -55,10 +58,11 @@ public class Prateleira : MonoBehaviour
         for (int i = 0; i < livros.Length; i++)
         {
             livros[i].cheio = false;
+            livros[i].imagem.sprite = null;
+            livros[i].atirado = false;
         }
-
         contador = 0;
-        ligar = Random.Range(-1, livros.Length + 1);
+        ligar = Random.Range(0, livros.Length -1);
         sorteando = true;
     }
   

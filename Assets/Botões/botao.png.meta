@@ -123,7 +123,7 @@ TextureImporter:
         width: 262
         height: 261
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,7 +144,7 @@ TextureImporter:
         width: 135
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +165,7 @@ TextureImporter:
         width: 262
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,13 +181,13 @@ TextureImporter:
       name: botao_3
       rect:
         serializedVersion: 2
-        x: 261
+        x: 254
         y: 314
-        width: 510
+        width: 517
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 15, z: 10, w: 14}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 15, z: 5, w: 14}
       outline: []
       physicsShape: []
       tessellationDetail: 0

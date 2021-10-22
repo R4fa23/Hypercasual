@@ -19,6 +19,7 @@ public class Controller : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         pontos = 0;
         vida = 10;
 

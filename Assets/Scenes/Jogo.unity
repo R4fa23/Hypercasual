@@ -455,9 +455,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 519420033}
-        m_TargetAssemblyTypeName: audio, Assembly-CSharp
-        m_MethodName: Ligar
+      - m_Target: {fileID: 2013388372}
+        m_TargetAssemblyTypeName: Controller, Assembly-CSharp
+        m_MethodName: Som
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -775,6 +775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listener: {fileID: 0}
+  liga: 1
 --- !u!1 &589172560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,6 +1748,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5885978728933810352, guid: 5c221a7d7573da74ebae46b400469753, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885978728933810354, guid: 5c221a7d7573da74ebae46b400469753, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885978728933810354, guid: 5c221a7d7573da74ebae46b400469753, type: 3}
+      propertyPath: m_Offset.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5885978728933810355, guid: 5c221a7d7573da74ebae46b400469753, type: 3}

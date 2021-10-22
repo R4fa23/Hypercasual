@@ -35,6 +35,7 @@ public class Estante : MonoBehaviour
         {
             p.Resetar();
         }
+        Controller.vida = 5;
     }
 
     public void Som()

@@ -6,7 +6,7 @@ public class Projetil : MonoBehaviour
 {
     [SerializeField] Transform cursor;
     [SerializeField] Vector2 force;
-    AudioSource audio;
+    AudioSource source;
 
     [SerializeField] AudioClip[] clips;
     public AudioClip som;
@@ -19,7 +19,7 @@ public class Projetil : MonoBehaviour
     
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
         sprite = GetComponent<SpriteRenderer>();
         livro = gameObject.GetComponent<LivroEstante>();
         livro.CriarLivro();
@@ -43,7 +43,14 @@ public class Projetil : MonoBehaviour
             
         }
 
-        
+        if(Controller.som == true)
+        {
+            GetComponent<AudioSource>().enabled = true;
+        }
+        else {
+            GetComponent<AudioSource>().enabled = false;
+        }
+
     }
 
     public void Atirar()
@@ -52,7 +59,7 @@ public class Projetil : MonoBehaviour
         {
             mirando = false;
             rb.velocity = force;
-            audio.PlayOneShot(som);
+            source.PlayOneShot(som);
         }
         
     }

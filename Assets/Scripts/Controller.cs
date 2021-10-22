@@ -12,6 +12,7 @@ public class Controller : MonoBehaviour
     static public bool gameOver = false;
     static public bool atirar = true;
     static public int pontos;
+    static public bool som = true;
     [SerializeField] Text scoreText;
     [SerializeField] Text vidaText;
 
@@ -19,7 +20,7 @@ public class Controller : MonoBehaviour
     void Start()
     {
         pontos = 0;
-        vida = 5;
+        vida = 10;
 
     }
 
@@ -42,8 +43,13 @@ public class Controller : MonoBehaviour
     {
         gameOver = false;
         atirar = true;
-        vida = 5;
+        vida = 10;
         SceneManager.LoadScene("Jogo");
+    }
+
+    public void Som()
+    {
+        som = !som;
     }
 
 }

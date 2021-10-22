@@ -4,29 +4,26 @@ using UnityEngine;
 
 public class audio : MonoBehaviour
 {
-    public AudioListener listener;
-    bool liga = true;
+    public AudioSource listener;
+    public bool liga = true;
      void Start()
     {
-        listener = GetComponent<AudioListener>();
+        listener = GetComponent<AudioSource>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (liga)
+        if (Controller.som == true)
         {
-            listener.enabled = true;
+            GetComponent<AudioSource>().enabled = true;
         }
         else
         {
-            listener.enabled = false;
+            GetComponent<AudioSource>().enabled = false;
         }
     }
 
-    public void Ligar()
-    {
-        liga = !liga;
-    }
+    
 }

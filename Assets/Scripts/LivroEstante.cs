@@ -53,14 +53,10 @@ public class LivroEstante : MonoBehaviour
                 if (i == indice)
                 {
                     imagem.sprite = livrosSprite[i];
-                    atirado = true;
-                    break;
+                    atirado = true;                    
                 }                
             }            
-        }
-
-        
-        
+        }       
     }
     private void FixedUpdate()
     {

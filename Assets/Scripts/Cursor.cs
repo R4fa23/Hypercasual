@@ -15,22 +15,20 @@ public class Cursor : MonoBehaviour
     
     void Update()
     {
-        if (estante.quantidade <= 6)
+        if (estante.quantidade < 6)
         {
-            speed = 0.6f;
-            
+            speed = 0.5f;            
         }
 
-        if (estante.quantidade > 6 && estante.quantidade <= 12)
+        if (estante.quantidade >= 6 && estante.quantidade < 12)
         {
-            speed = 1f;
-            
+            speed = 1f;         
 
         }    
 
-        if (estante.quantidade > 15 && estante.quantidade <=17)
+        if (estante.quantidade >= 12 && estante.quantidade < 18)
         {
-            speed = 1.2f;
+            speed = 1.5f;
         
 
         }

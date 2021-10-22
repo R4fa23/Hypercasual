@@ -15,13 +15,16 @@ public class Controller : MonoBehaviour
     static public bool som = true;
     [SerializeField] Text scoreText;
     [SerializeField] Text vidaText;
+    
+
+
 
 
     void Start()
     {
         Application.targetFrameRate = 60;
         pontos = 0;
-        vida = 10;
+        vida = 7;
 
     }
 
@@ -44,7 +47,7 @@ public class Controller : MonoBehaviour
     {
         gameOver = false;
         atirar = true;
-        vida = 10;
+        vida = 7;
         SceneManager.LoadScene("Jogo");
     }
 

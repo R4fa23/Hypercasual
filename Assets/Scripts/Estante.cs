@@ -9,7 +9,8 @@ public class Estante : MonoBehaviour
     public int quantidade;
     bool movimento;
     Animator anim;
-     
+    [SerializeField] Animator mask;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +26,9 @@ public class Estante : MonoBehaviour
         {
             quantidade = 0;
             Controller.pontos += 100;
-            anim.SetTrigger("IrEsquerda");                      
+            anim.SetTrigger("IrEsquerda");
+            mask.SetTrigger("Mask");
+            
         }        
     }
     
@@ -35,7 +38,7 @@ public class Estante : MonoBehaviour
         {
             p.Resetar();
         }
-        Controller.vida = 5;
+        Controller.vida = 7;
     }
 
     public void Som()

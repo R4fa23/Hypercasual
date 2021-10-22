@@ -88,7 +88,7 @@ public class Projetil : MonoBehaviour
                 livro.imagem.sprite = sprite.sprite;
                 livro.atirado = true;
                 int index = Random.Range(0, clips.Length);
-                audio.PlayOneShot(clips[index]);                
+                GetComponent<AudioSource>().PlayOneShot(clips[index]);                
                 livro.SomarQnt();
                 Resetar();
             }

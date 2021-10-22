@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Estante : MonoBehaviour
 {
-    public AudioSource audio;
+    public AudioSource source;
     public Prateleira[] prat;
     public int quantidade;
     bool movimento;
@@ -13,7 +13,7 @@ public class Estante : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        source = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         
     }
@@ -40,6 +40,6 @@ public class Estante : MonoBehaviour
 
     public void Som()
     {
-        audio.Play();
+        source.Play();
     }
 }
